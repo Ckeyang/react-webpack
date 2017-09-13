@@ -26,7 +26,7 @@ a{cursor: pointer}
 .tar{text-align:right}
 .tal{text-align:left}
 /* Button */
-.a_btn{display: inline-block;width:5em;height:3em;text-align: center;line-height: 3em;border-radius: 6px}/*Ĭ��*/
+.a_btn{display: inline-block;width:5em;height:3em;text-align: center;line-height: 3em;border-radius: 6px;cursor: pointer}/*Ĭ��*/
 .a_btn_80{display: inline-block;width:80px;height:32px;text-align: center;line-height: 32px;border-radius: 6px}/*���80px*/
 .a_btn_120{display: inline-block;width:120px;height:40px;text-align:center;line-height: 40px;border-radius:6px}/*���120px*/
 .a_btn_32y{display: inline-block;width:120px;height:32px;text-align: center;line-height: 32px;border-radius: 6px}/*�߶�32px*/

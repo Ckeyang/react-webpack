@@ -7,10 +7,10 @@ const http = {
      * @param data
      * @param callback
      */
-    ajax: function (action, data, callback) {
+    ajax(action, data, callback) {
         let that=this;
         if(!that.checkAction(action)){
-            console.log("没找到这个action:"+action)
+            console.log("没找到这个action:"+action);
             return
         }
         $.ajax({
@@ -28,10 +28,10 @@ const http = {
      * @param formData
      * @param callback
      */
-    fileUpload:function(action,formData,callback){
+    fileUpload(action,formData,callback){
         let that=this;
         if(!that.checkAction(action)){
-            console.log("没找到这个action:"+action)
+            console.log("没找到这个action:"+action);
             return
         }
         $.ajax({
@@ -45,7 +45,7 @@ const http = {
             }
         })
     },
-    checkAction:function(action){
+    checkAction(action){
         return typeof router[action]!="undefined"?true:false
     }
 };
